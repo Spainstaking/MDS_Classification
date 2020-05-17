@@ -1,16 +1,8 @@
-
-from collections import deque
-import sys
-import os
 import matplotlib.pyplot as plt
 import networkx as nx
-import time
 import openpyxl
 
 '''求解极大连通子图'''
-
-
-
 
 '''
     function:
@@ -22,7 +14,8 @@ import openpyxl
         edges:边(依赖关系)
 '''
 
-def readExcel(file):    # cls : 表示没用被实例化的类本身
+
+def readExcel(file):  # cls : 表示没用被实例化的类本身
     nodes = []
     edges = []
     # 输入的表格必须整行整列（即m*n矩阵中的每个单元格不能为空）
@@ -43,26 +36,30 @@ def readExcel(file):    # cls : 表示没用被实例化的类本身
     # wb.save(file)
     return nodes, edges
 
+
 def readTXT(file):  # cls : 表示没用被实例化的类本身
     nodes = []
     edges = []
     for line in open(file, "r"):
         mylist = []
         node1, node2 = line.strip('\n').split(' ')
+
         if not judgeIsIn(nodes, node1):
             nodes.append(node1)
         if not judgeIsIn(nodes, node2):
             nodes.append(node2)
+
         mylist.append(node1)
         mylist.append(node2)
         tup = tuple(mylist)
         edges.append(tup)
     return nodes, edges
 
-def __init__():
 
-    nodes=[]
-    edges=[]
+'''
+def itsays_init():
+
+  
 
     dict = {}
 
@@ -78,7 +75,8 @@ def __init__():
         num2 = mylist2.count(key)
         num = num1 + num2
         dict[key] = num
-    self.nodesdegree = dict
+    nodesdegree = dict
+'''
 
 '''
 function:
@@ -89,7 +87,8 @@ input:
     weight_b：是否带权重(默认为true)
 '''
 
-def addNodesEdges(G, weight_b):
+
+def addNodesEdges(G, weight_b, nodes, edges):
     # 定义graph
     G.add_nodes_from(nodes)
     if weight_b:
@@ -97,6 +96,7 @@ def addNodesEdges(G, weight_b):
     else:
         G.add_edges_from(edges)
     return
+
 
 '''
 function:
@@ -106,6 +106,7 @@ input:
 output:
     file:输出表格(xlsx格式)：第一列为源项目，第二列为引用项目，第三列为权重(可选)
 '''
+
 
 def writeGraph(G, file):
     # 写文件
@@ -127,6 +128,7 @@ def writeGraph(G, file):
     wb.save(file)
     return
 
+
 '''
 计算极大连通子图中   不同图的数量及节点个数
 统计极大连通子图
@@ -134,12 +136,13 @@ def writeGraph(G, file):
         mylist：连通子图
 '''
 
+
 def count(G, num):
     dict = {}
     for tmp_list in nx.connected_components(G):
         length = len(tmp_list)  # 当前连通图中   的  节点个数
-        ret = dict.get(length)   # 拥有相同节点个数  的图的个数
-        if ret == None:
+        ret = dict.get(length)  # 拥有相同节点个数  的图的个数
+        if ret is None:
             dict[length] = 1
         else:
             dict[length] = ret + 1
@@ -148,6 +151,11 @@ def count(G, num):
     # for key in items:
     #     print(key)  # 如(4,1)指的是 节点数为4的子图个数为1
     return
+
+
+
+
+
 
 '''
 过滤社区中节点数小于threshold的极大连通子图
@@ -158,22 +166,25 @@ output:
     节点列表
 '''
 
+
 def filtercommunity(G, threshold):
     dataset = []
     for tmplist in nx.connected_components(G):
         if len(tmplist) >= threshold:
             for key in tmplist:
-                if judgeIsIn(dataset,key):
+                if judgeIsIn(dataset, key):
                     continue
-                else:         # 单元素点不在dataset中
+                else:  # 单元素点不在dataset中
                     dataset.append(key)
     # self.dataset = dataset.copy()  # 只拷贝父对象，不拷贝子对象
     print(dataset)
     return
 
+
 '''
 求最大的 极大连通子图
 '''
+
 
 def maxSubGraph(G):
     maxsubgraph = []
@@ -189,6 +200,7 @@ def maxSubGraph(G):
     print(maxsubgraph)
     return maxsubgraph, max
 
+
 '''
 function:
     显示图形
@@ -196,8 +208,8 @@ input:
     mylist：连通子图
 '''
 
-def show(G):
 
+def show(G):
     plt.subplot(111)
     # print(len(max(nx.connected_component(G))))
     nx.draw_networkx(G, with_labels=True)  # 有框框
@@ -223,6 +235,7 @@ def show(G):
     plt.show()
     return
 
+
 def judgeIsIn(data_all, temp):
     for k in data_all:
         if k == temp:
@@ -234,17 +247,17 @@ if __name__ == "__main__":
 
     # nodes, edges = ConnectedSubgraph.readExcel(r"C:\Users\SureY\Desktop\Normal_BRCA_edge.xlsx")
     # nodes, edges = ConnectedSubgraph.readExcel(r"C:\Users\SureY\Desktop\1.xlsx")
-
+    raise Exception('gggg')
     file_names = os.listdir(r'E:\PycharmTest\MDS\PPI_PCCs_edge')
 
     for fname in file_names:
+
         file_tumor = os.path.join("PPI_PCCs_edge", fname)
         for fname2 in os.listdir(file_tumor):
             file = os.path.join("PPI_PCCs_edge", fname, fname2)
-            file_maxconn = os.path.splitext(os.path.basename(file))[0]+'_maxconn.txt'
+            file_maxconn = os.path.splitext(os.path.basename(file))[0] + '_maxconn.txt'
             file_maxconn_path = os.path.join("PPI_PCCs_edge_maxconn", fname, file_maxconn)
-            nodes = []
-            edges = []
+
             nodes, edges = readTXT(file)
             # 定义graph
             G = nx.Graph()
@@ -256,5 +269,4 @@ if __name__ == "__main__":
             with open(file_maxconn_path, 'a') as fp:
                 for i in maxsubgraph.edges:
                     fp.write(i[0] + ' ' + i[1] + '\n')
-            print(fname2+'  over')
-
+            print(fname2 + '  over')
