@@ -1,0 +1,193 @@
+7157,TP53,tumor protein p53
+1029,CDKN2A,cyclin-dependent kinase inhibitor 2A
+841,CASP8,caspase 8, apoptosis-related cysteine peptidase
+2195,FAT1,FAT atypical cadherin 1
+4780,NFE2L2,nuclear factor (erythroid-derived 2)-like 2
+9757,MLL2,lysine (K)-specific methyltransferase 2B
+4851,NOTCH1,notch 1
+64324,NSD1,nuclear receptor binding SET domain protein 1
+3265,HRAS,v-Ha-ras Harvey rat sarcoma viral oncogene homolog
+1969,EPHA2,EPH receptor A2
+5290,PIK3CA,phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha
+84962,AJUBA,ajuba LIM protein
+5879,RAC1,ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)
+79755,ZNF750,zinc finger protein 750
+387,RHOA,ras homolog family member A
+7048,TGFBR2,transforming growth factor, beta receptor II (70/80kDa)
+5728,PTEN,phosphatase and tensin homolog
+3105,HLA-A,major histocompatibility complex, class I, A
+2033,EP300,E1A binding protein p300
+567,B2M,beta-2-microglobulin
+161725,OTUD7A,OTU domain containing 7A
+3106,HLA-B,major histocompatibility complex, class I, B
+10664,CTCF,CCCTC-binding factor (zinc finger protein)
+10527,IPO7,importin 7
+5921,RASA1,RAS p21 protein activator (GTPase activating protein) 1
+8491,MAP4K3,mitogen-activated protein kinase kinase kinase kinase 3
+27034,ACAD8,acyl-CoA dehydrogenase family, member 8
+60,ACTB,actin, beta
+71,ACTG1,actin, gamma 1
+92,ACVR2A,activin A receptor, type IIA
+102,ADAM10,ADAM metallopeptidase domain 10
+196,AHR,aryl hydrocarbon receptor
+207,AKT1,v-akt murine thymoma viral oncogene homolog 1
+317,APAF1,apoptotic peptidase activating factor 1
+324,APC,adenomatous polyposis coli
+55738,ARFGAP1,ADP-ribosylation factor GTPase activating protein 1
+10564,ARFGEF2,ADP-ribosylation factor guanine nucleotide-exchange factor 2 (brefeldin A-inhibited)
+2909,ARHGAP35,Rho GTPase activating protein 35
+9459,ARHGEF6,Rac/Cdc42 guanine nucleotide exchange factor (GEF) 6
+57492,ARID1B,AT rich interactive domain 1B (SWI1-like)
+196528,ARID2,AT rich interactive domain 2 (ARID, RFX-like)
+471,ATIC,5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase
+472,ATM,ataxia telangiectasia mutated
+10159,ATP6AP2,ATPase, H+ transporting, lysosomal accessory protein 2
+545,ATR,ataxia telangiectasia and Rad3 related
+546,ATRX,alpha thalassemia/mental retardation syndrome X-linked
+567,B2M,beta-2-microglobulin
+8314,BAP1,BRCA1 associated protein-1 (ubiquitin carboxy-terminal hydrolase)
+29994,BAZ2B,bromodomain adjacent to zinc finger domain, 2B
+53335,BCL11A,B-cell CLL/lymphoma 11A (zinc finger protein)
+659,BMPR2,bone morphogenetic protein receptor, type II (serine/threonine kinase)
+54796,BNC2,basonuclin 2
+2186,BPTF,bromodomain PHD finger transcription factor
+673,BRAF,v-raf murine sarcoma viral oncogene homolog B1
+672,BRCA1,breast cancer 1, early onset
+54014,BRWD1,bromodomain and WD repeat domain containing 1
+790,CAD,carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase
+10498,CARM1,coactivator-associated arginine methyltransferase 1
+834,CASP1,caspase 1, apoptosis-related cysteine peptidase
+841,CASP8,caspase 8, apoptosis-related cysteine peptidase
+847,CAT,catalase
+55749,CCAR1,cell division cycle and apoptosis regulator 1
+22948,CCT5,chaperonin containing TCP1, subunit 5 (epsilon)
+999,CDH1,cadherin 1, type 1, E-cadherin (epithelial)
+51755,CDK12,cyclin-dependent kinase 12
+1027,CDKN1B,cyclin-dependent kinase inhibitor 1B (p27, Kip1)
+1029,CDKN2A,cyclin-dependent kinase inhibitor 2A
+80184,CEP290,centrosomal protein 290kDa
+80205,CHD9,chromodomain helicase DNA binding protein 9
+4261,CIITA,class II, major histocompatibility complex, transactivator
+23122,CLASP2,cytoplasmic linker associated protein 2
+63967,CLSPN,claspin
+4850,CNOT4,CCR4-NOT transcription complex, subunit 4
+1277,COL1A1,collagen, type I, alpha 1
+1457,CSNK2A1,casein kinase 2, alpha 1 polypeptide
+10664,CTCF,CCCTC-binding factor (zinc finger protein)
+1499,CTNNB1,catenin (cadherin-associated protein), beta 1, 88kDa
+8454,CUL1,cullin 1
+8452,CUL3,cullin 3
+1540,CYLD,cylindromatosis (turban tumor syndrome)
+1654,DDX3X,DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, X-linked
+23405,DICER1,dicer 1, ribonuclease type III
+1788,DNMT3A,DNA (cytosine-5-)-methyltransferase 3 alpha
+1915,EEF1A1,eukaryotic translation elongation factor 1 alpha 1
+1956,EGFR,epidermal growth factor receptor
+192669,EIF2C3,argonaute RISC catalytic component 3
+1997,ELF1,E74-like factor 1 (ets domain transcription factor)
+2000,ELF4,E74-like factor 4 (ets domain transcription factor)
+2033,EP300,E1A binding protein p300
+1969,EPHA2,EPH receptor A2
+2146,EZH2,enhancer of zeste homolog 2 (Drosophila)
+2195,FAT1,FAT atypical cadherin 1
+2196,FAT2,FAT atypical cadherin 2
+55294,FBXW7,F-box and WD repeat domain containing 7, E3 ubiquitin protein ligase
+2263,FGFR2,fibroblast growth factor receptor 2
+2322,FLT3,fms-related tyrosine kinase 3
+2332,FMR1,fragile X mental retardation 1
+2335,FN1,fibronectin 1
+27086,FOXP1,forkhead box P1
+8880,FUBP1,far upstream element (FUSE) binding protein 1
+9908,G3BP2,GTPase activating protein (SH3 domain) binding protein 2
+2778,GNAS,GNAS complex locus
+29899,GPSM2,G-protein signaling modulator 2
+3105,HLA-A,major histocompatibility complex, class I, A
+3106,HLA-B,major histocompatibility complex, class I, B
+9987,HNRPDL,heterogeneous nuclear ribonucleoprotein D-like
+3265,HRAS,v-Ha-ras Harvey rat sarcoma viral oncogene homolog
+3312,HSPA8,heat shock 70kDa protein 8
+3658,IREB2,iron-responsive element binding protein 2
+3664,IRF6,interferon regulatory factor 6
+8660,IRS2,insulin receptor substrate 2
+8997,KALRN,kalirin, RhoGEF kinase
+8242,KDM5C,lysine (K)-specific demethylase 5C
+7403,KDM6A,lysine (K)-specific demethylase 6A
+1316,KLF6,Kruppel-like factor 6
+3908,LAMA2,laminin, alpha 2
+23266,LPHN2,latrophilin 2
+23499,MACF1,microtubule-actin crosslinking factor 1
+4214,MAP3K1,mitogen-activated protein kinase kinase kinase 1, E3 ubiquitin protein ligase
+8491,MAP4K3,mitogen-activated protein kinase kinase kinase kinase 3
+9440,MED17,mediator complex subunit 17
+4208,MEF2C,myocyte enhancer factor 2C
+4221,MEN1,multiple endocrine neoplasia I
+23269,MGA,MGA, MAX dimerization protein
+4255,MGMT,O-6-methylguanine-DNA methyltransferase
+4297,MLL,lysine (K)-specific methyltransferase 2A
+9757,MLL2,lysine (K)-specific methyltransferase 2B
+4481,MSR1,macrophage scavenger receptor 1
+2475,MTOR,mechanistic target of rapamycin (serine/threonine kinase)
+200958,MUC20,mucin 20, cell surface associated
+4627,MYH9,myosin, heavy chain 9, non-muscle
+4688,NCF2,neutrophil cytosolic factor 2
+10787,NCKAP1,NCK-associated protein 1
+9611,NCOR1,nuclear receptor corepressor 1
+23327,NEDD4L,neural precursor cell expressed, developmentally down-regulated 4-like, E3 ubiquitin protein ligase
+4763,NF1,neurofibromin 1
+4776,NFATC4,nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 4
+4780,NFE2L2,nuclear factor (erythroid-derived 2)-like 2
+4851,NOTCH1,notch 1
+4853,NOTCH2,notch 2
+4929,NR4A2,nuclear receptor subfamily 4, group A, member 2
+64324,NSD1,nuclear receptor binding SET domain protein 1
+57122,NUP107,nucleoporin 107kDa
+5042,PABPC3,poly(A) binding protein, cytoplasmic 3
+5079,PAX5,paired box 5
+55193,PBRM1,polybromo 1
+54510,PCDH18,protocadherin 18
+5290,PIK3CA,phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha
+5295,PIK3R1,phosphoinositide-3-kinase, regulatory subunit 1 (alpha)
+8503,PIK3R3,phosphoinositide-3-kinase, regulatory subunit 3 (gamma)
+5431,POLR2B,polymerase (RNA) II (DNA directed) polypeptide B, 140kDa
+5518,PPP2R1A,protein phosphatase 2, regulatory subunit A, alpha
+5527,PPP2R5C,protein phosphatase 2, regulatory subunit B', gamma
+10594,PRPF8,pre-mRNA processing factor 8
+5396,PRRX1,paired related homeobox 1
+11168,PSIP1,PC4 and SFRS1 interacting protein 1
+5879,RAC1,ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)
+5885,RAD21,RAD21 homolog (S. pombe)
+5921,RASA1,RAS p21 protein activator (GTPase activating protein) 1
+10125,RASGRP1,RAS guanyl releasing protein 1 (calcium and DAG-regulated)
+387,RHOA,ras homolog family member A
+6146,RPL22,ribosomal protein L22
+388524,RPSAP58,ribosomal protein SA pseudogene 58
+861,RUNX1,runt-related transcription factor 1
+9871,SEC24D,SEC24 family, member D (S. cerevisiae)
+23451,SF3B1,splicing factor 3b, subunit 1, 155kDa
+25942,SIN3A,SIN3 transcription regulator homolog A (yeast)
+4087,SMAD2,SMAD family member 2
+6597,SMARCA4,SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4
+8243,SMC1A,structural maintenance of chromosomes 1A
+6662,SOX9,SRY (sex determining region Y)-box 9
+8405,SPOP,speckle-type POZ protein
+6709,SPTAN1,spectrin, alpha, non-erythrocytic 1
+10735,STAG2,stromal antigen 2
+10963,STIP1,stress-induced-phosphoprotein 1
+57551,TAOK1,TAO kinase 1
+9344,TAOK2,TAO kinase 2
+79718,TBL1XR1,transducin (beta)-like 1 X-linked receptor 1
+6926,TBX3,T-box 3
+6938,TCF12,transcription factor 12
+6925,TCF4,transcription factor 4
+7027,TFDP1,transcription factor Dp-1
+7029,TFDP2,transcription factor Dp-2 (E2F dimerization partner 2)
+7048,TGFBR2,transforming growth factor, beta receptor II (70/80kDa)
+9967,THRAP3,thyroid hormone receptor associated protein 3
+9414,TJP2,tight junction protein 2
+7157,TP53,tumor protein p53
+7204,TRIO,trio Rho guanine nucleotide exchange factor
+9322,TRIP10,thyroid hormone receptor interactor 10
+7307,U2AF1,U2 small nuclear RNA auxiliary factor 1
+7468,WHSC1,Wolf-Hirschhorn syndrome candidate 1
+9877,ZC3H11A,zinc finger CCCH-type containing 11A
+79755,ZNF750,zinc finger protein 750

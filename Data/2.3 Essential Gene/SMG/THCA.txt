@@ -1,0 +1,32 @@
+79026,AHNAK,AHNAK nucleoprotein
+10142,AKAP9,A kinase (PRKA) anchor protein (yotiao) 9
+23092,ARHGAP26,Rho GTPase activating protein 26
+196528,ARID2,AT rich interactive domain 2 (ARID, RFX-like)
+2186,BPTF,bromodomain PHD finger transcription factor
+673,BRAF,v-raf murine sarcoma viral oncogene homolog B1
+51755,CDK12,cyclin-dependent kinase 12
+1107,CHD3,chromodomain helicase DNA binding protein 3
+1499,CTNNB1,catenin (cadherin-associated protein), beta 1, 88kDa
+23405,DICER1,dicer 1, ribonuclease type III
+1964,EIF1AX,eukaryotic translation initiation factor 1A, X-linked
+2778,GNAS,GNAS complex locus
+9987,HNRPDL,heterogeneous nuclear ribonucleoprotein D-like
+3265,HRAS,v-Ha-ras Harvey rat sarcoma viral oncogene homolog
+3845,KRAS,v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog
+3939,LDHA,lactate dehydrogenase A
+4297,MLL,lysine (K)-specific methyltransferase 2A
+58508,MLL3,lysine (K)-specific methyltransferase 2C
+4690,NCK1,NCK adaptor protein 1
+4893,NRAS,neuroblastoma RAS viral (v-ras) oncogene homolog
+64324,NSD1,nuclear receptor binding SET domain protein 1
+5290,PIK3CA,phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha
+8493,PPM1D,protein phosphatase, Mg2+/Mn2+ dependent, 1D
+5518,PPP2R1A,protein phosphatase 2, regulatory subunit A, alpha
+10594,PRPF8,pre-mRNA processing factor 8
+5728,PTEN,phosphatase and tensin homolog
+388524,RPSAP58,ribosomal protein SA pseudogene 58
+7082,TJP1,tight junction protein 1
+7157,TP53,tumor protein p53
+7204,TRIO,trio Rho guanine nucleotide exchange factor
+7456,WIPF1,WAS/WASL interacting protein family, member 1
+9877,ZC3H11A,zinc finger CCCH-type containing 11A
