@@ -5,7 +5,7 @@
 - pulp 2.0
 ------------
 # How to run the code
-* Running with test (PPI_PCCS_edge_maxconn/test.txt) dataset:
+* Running with test (Data/test.txt) dataset:
   1. Directly run the following command:
 
      ```bash
