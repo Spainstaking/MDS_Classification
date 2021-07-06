@@ -8,7 +8,7 @@ import sys
 import time
 import MDS_Solution
 
-file_path = 'Data/TEST'
+file_path = 'Data'
 # genename = sys.argv[1]
 genename = 'TEST'
 testfile_path = os.path.join(file_path, genename)
