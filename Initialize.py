@@ -16,7 +16,7 @@ testfile_path = os.path.join(file_path, genename)
 for genefile in os.listdir(testfile_path):
 
     genefile_path = os.path.join(testfile_path, genefile)
-    outputfile = 'PPI_PCCS_res/' + genename + '/result_' + genefile
+    outputfile = 'Data/' + genename + '/result_' + genefile
 
     file = open(outputfile, 'w')
 
