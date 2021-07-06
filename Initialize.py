@@ -8,9 +8,9 @@ import sys
 import time
 import MDS_Solution
 
-file_path = 'PPI_PCCS_edge_maxconn'
-genename = sys.argv[1]
-# genename = 'TEST'
+file_path = 'Data/TEST'
+# genename = sys.argv[1]
+genename = 'TEST'
 testfile_path = os.path.join(file_path, genename)
 
 for genefile in os.listdir(testfile_path):
